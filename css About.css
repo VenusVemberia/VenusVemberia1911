@@ -1,0 +1,148 @@
+/* Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background khusus halaman index */
+body.index {
+  background-color: #FFD700;
+  background-image: url('planet 2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Background khusus halaman about */
+body.about {
+  background-image: url('Venus Rubah.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a581c;
+  padding: 30px 40px;
+  color: white;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: khaki;
+}
+
+.logo span {
+  color: rgb(228, 170, 226);
+}
+
+/* Navigasi */
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+/* Bagian Home */
+section.home {
+  padding: 100px 60px;
+  text-align: left;
+}
+
+.content h1 {
+  font-size: 30px;
+}
+
+.content h1 span {
+  color: rgb(194, 143, 66);
+  font-size: 30px;
+}
+
+.content p {
+  font-size: 17px;
+}
+
+/* Ikon Sosial Media */
+.fa-instagram {
+  color: pink;
+  background: white;
+  width: 27px;
+  font-size: 30px;
+  margin: 5px 4px;
+  text-align: center;
+}
+
+.fa-telegram {
+  color: skyblue;
+  background: white;
+  width: 29px;
+  font-size: 30px;
+  margin: 5px 4px;
+  text-align: center;
+}
+
+.fa-youtube {
+  color: lightcoral;
+  background: white;
+  width: 34px;
+  font-size: 30px;
+  margin: 5px 4px;
+  text-align: center;
+}
+
+/* Tombol */
+.btns button {
+  height: 55px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border: 5px dashed brown;
+  color: rgba(211, 127, 0, 0.822);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Galeri Gambar (Jika ingin digabung di satu file) */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gallery-item h3 {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  color: #333;
+}
