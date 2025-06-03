@@ -107,6 +107,7 @@ section.home {
 /* About.HTML*/
 body.about {
     background-image: url(Venus\ Rubah.png);
+    background-size: cover;
 }
 
 .gallery-item h3 {
