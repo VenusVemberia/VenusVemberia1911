@@ -5,19 +5,10 @@
   font-family: Arial, sans-serif;
 }
 
-/* Background khusus halaman index */
-body.index {
-  background-color: #FFD700;
-  background-image: url('planet 2.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 /* Background khusus halaman about */
 body.about {
-    background-image: url(planet\ 2.png);
+  background-image: url(planet\ 2.png);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* Header */
