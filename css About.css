@@ -15,7 +15,7 @@ body.index {
 
 /* Background khusus halaman about */
 body.about {
-  background-image: url('Venus Rubah.png');
+    background-image: url(planet\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
